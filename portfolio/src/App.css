@@ -1,0 +1,6 @@
+.review-card iframe {
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 50%;
+}
