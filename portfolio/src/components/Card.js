@@ -8,8 +8,10 @@ export default function Card(props) {
         scrolling="no"
         src="https://thispersondoesnotexist.com/image"
       />
-      <p>"{props.testimonial}"</p>
-      <p> - {props.name}</p>
+      <div className="review-card__text-container">
+        <p>"{props.testimonial}"</p>
+        <p> - {props.name}</p>
+      </div>
     </div>
   );
 }
